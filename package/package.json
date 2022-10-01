@@ -1,0 +1,23 @@
+{
+  "name": "@asaveiflorin/style-helpers",
+  "version": "1.0.0",
+  "description": "CSS style helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florinasavei/style-helpers.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Florin Asavei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florinasavei/style-helpers/issues"
+  },
+  "homepage": "https://github.com/florinasavei/style-helpers#readme"
+}
