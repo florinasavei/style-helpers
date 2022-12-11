@@ -1,15 +1,15 @@
 {
   "name": "@asaveiflorin/style-helpers",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "CSS style helpers",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "publish": "npm publish --access=public"
+    "publish": "npm run build && npm publish --access=public"
   },
-  "files": ["dist/style.css"],
+  "files": ["dist/*", "src/lib/*"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/florinasavei/style-helpers.git"
@@ -24,13 +24,8 @@
   },
   "homepage": "https://github.com/florinasavei/style-helpers#readme",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "@vitejs/plugin-react": "^2.2.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
   }

@@ -1,0 +1,19 @@
+.tomato {
+  background-color: tomato;
+  }
+
+  
+.text-lowercase {
+  text-transform: lowercase;
+}  
+.text-capital {
+  text-transform: capitalize;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.py-2rem{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
